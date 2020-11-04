@@ -1,0 +1,12 @@
+html
+  head
+    title= title
+  body(style='font-family: Monaco, monospace;')
+  center
+    h1= message
+    div(style='display:flex; width:70%;')
+      div
+        img.image(src= img_path_var style='width:400px;')
+      div(style='margin-left: 50px; width:500px; text-align: left;')
+        pre(style='background-color: #eee;')= result
+      
