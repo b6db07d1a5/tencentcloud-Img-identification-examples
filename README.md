@@ -36,5 +36,7 @@ npm run dev
 ### Send Get request
 
 ```
-localhost:3000/?url=https://toyotavan.jpg
+localhost:3000/car-identify/?url=https://toyotavan.jpg
+
+localhost:3000/ocr-vin/?url=https://toyotavan.jpg
 ```
