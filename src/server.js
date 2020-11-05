@@ -40,7 +40,7 @@ app.get("/ocr-vin/:url?*", async (req, res) => {
   });
 });
 
-app.get("/:url?*", async (req, res) => {
+app.get("/car-identify/:url?*", async (req, res) => {
   const imgSrc = req.query.url;
 
   const defaultRender = {
